@@ -56,4 +56,4 @@ To verify this, I go to "Search & Reporting" in Splunk and search for "index=end
 Next, I repeat the same process for the Windows Server. Upon completion, I confirm that both the target machine and server are up and running and being recognized by Splunk. Everything seems to be working correctly!
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/cc07903c-5a39-44a1-b178-afdb6c1be0d2" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/48ec3f93-5d96-48e6-828c-907d643358c8" height="30%" width="70%" alt="Disk Sanitization Steps"/>
