@@ -25,7 +25,7 @@ To download Splunk, I visit their website, create an account, and download the f
 This doesn’t fully download Splunk, so to initiate the full download and installation of Splunk, I switch to the Splunk user by executing the command "sudo -u splunk bash." Next, I navigate to the "bin" directory using "cd bin" as it contains all the Splunk binaries. From there, I run the installer using "./splunk start" to begin the Splunk installation process.
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/d1894414-7365-4533-8f94-1dfca04aad39" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/523580d5-c8c7-4219-baaf-c56708ad4d71" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 To ensure that Splunk starts automatically every time the virtual machine reboots, I navigate to the "bin" directory within Splunk and execute the command "sudo ./splunk enable boot-start -user splunk." This command configures Splunk to start up during system boot, using the specified "splunk" user.
 <br />
