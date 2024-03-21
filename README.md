@@ -42,7 +42,7 @@ To install Splunk Universal Forwarder, I begin by downloading it from Splunk's w
 <br />
 <img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/9a21cd9b-5093-415b-884f-a50e68775ca1" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
-:)
+This step is crucial in configuring Splunk Universal Forwarder to send specific data to the Splunk server. This is achieved through the configuration of the "inputs.conf" file, which is located in the Program Files directory on the C drive under the Splunk folder. It's important not to edit the file in the "default" folder to avoid causing issues, so a new file must be created in the "local" folder. Using administrative privileges, I open Notepad and paste the configuration contents obtained from a GitHub page. I save the Notepad file into the "local" folder, restart Splunk Forwarder via Windows Services, and everything is set up for data transmission to the Splunk server.
 <br />
 <br />
 <img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/179ec5f6-1822-440a-9e18-7ffe18c946e9" height="30%" width="70%" alt="Disk Sanitization Steps"/>
