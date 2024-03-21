@@ -35,4 +35,4 @@ To ensure that Splunk starts automatically every time the virtual machine reboot
 To begin installing Splunk Universal Forwarder and Sysmon on both the target machine and the server, I first need to change the IPv4 address to avoid any potential IP conflicts. I accomplish this by navigating to the Windows settings and selecting "Change adapter options." From there, I enter the appropriate numbers to modify the IPv4 address, ensuring that there are no conflicts. This step is crucial to ensure smooth installation and operation of Splunk Universal Forwarder and Sysmon.
 <br />
 <br />
-<img src=".." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/6e45f8ef-e2db-46f6-82e8-5bf49175d958" height="30%" width="70%" alt="Disk Sanitization Steps"/>
