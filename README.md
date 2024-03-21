@@ -46,3 +46,14 @@ To install Splunk Universal Forwarder, I begin by downloading it from Splunk's w
 <br />
 <br />
 <img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/5887f97a-e422-4c4e-a9cb-3803ed62990e" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
+To finalize the Splunk server configuration, I log in to the Splunk web portal using the credentials I created during the Splunk installation on the server. In the inputs.conf file, all the inputs are being sent over to an index named "endpoint." Since this index doesn't exist in Splunk yet, I create a new index named "endpoint" and ensure that the Splunk server is enabled to receive the data.
+
+To enable data reception, I navigate to "Forwarding and receiving" in Splunk and create a new receiving port using port 9997, which is the default Splunk port for receiving data. If everything is set up correctly, I should start seeing data coming in from the target machine.
+
+To verify this, I go to "Search & Reporting" in Splunk and search for "index=endpoint." If configured correctly, I should see over 10,000 events with the "host" field showing "TARGET-PC" and the "source" field displaying application, system, security, and Sysmon from the inputs.conf file.
+
+Next, I repeat the same process for the Windows Server. Upon completion, I confirm that both the target machine and server are up and running and being recognized by Splunk. Everything seems to be working correctly!
+<br />
+<br />
+<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
