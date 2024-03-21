@@ -20,7 +20,7 @@ To ensure everything is configured correctly, I execute the command "ip a" to ch
 To download Splunk, I visit their website, create an account, and download the free trial. Once the file is downloaded onto my host computer, I launch the Splunk virtual machine I previously created. Within the virtual machine, I create a new folder named "share" and proceed to mount the shared folder to the "share" directory using the command "sudo mount -t vboxsf -o uid=1000,gid=100." Next, I add the Splunk download file to VirtualBox and navigate to the "share" directory to initiate the Splunk download process.
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/3a82a793-2a8e-470d-9eef-b61d9e7cdeb7" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/9c3d71f1-3f5b-415c-a948-a08a6c72acd8" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 This doesn’t fully download Splunk, so to initiate the full download and installation of Splunk, I switch to the Splunk user by executing the command "sudo -u splunk bash." Next, I navigate to the "bin" directory using "cd bin" as it contains all the Splunk binaries. From there, I run the installer using "./splunk start" to begin the Splunk installation process.
 <br />
