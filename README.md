@@ -45,4 +45,4 @@ To install Splunk Universal Forwarder, I begin by downloading it from Splunk's w
 :)
 <br />
 <br />
-<img src="" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/5887f97a-e422-4c4e-a9cb-3803ed62990e" height="30%" width="70%" alt="Disk Sanitization Steps"/>
