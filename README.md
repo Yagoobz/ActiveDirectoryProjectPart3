@@ -40,7 +40,7 @@ To begin installing Splunk Universal Forwarder and Sysmon on both the target mac
 To install Splunk Universal Forwarder, I begin by downloading it from Splunk's website and running the installation process. Concurrently, while Splunk is downloading, I also download Sysmon along with a configuration file from GitHub. In PowerShell, I navigate to the directory where I extracted the Sysmon config file and proceed to download Sysmon. Once both installations are completed, I have Splunk Universal Forwarder and Sysmon successfully installed on the target machine.
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/015e584a-2687-4186-a731-88ea242f4d17" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/9a21cd9b-5093-415b-884f-a50e68775ca1" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 :)
 <br />
