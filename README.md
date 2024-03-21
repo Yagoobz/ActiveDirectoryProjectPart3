@@ -15,4 +15,4 @@ On the Splunk server, I configure a static IP address to match the IPv4 address 
 To ensure everything is configured correctly, I execute the command "ip a" to check the IP address, confirming that it has changed according to the static IP configuration. Additionally, I perform a ping to google.com to verify if I receive a response, and I do, indicating that the network setup is working perfectly.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/36572ccd-a1f4-4881-996d-d473ff60268a" height="30%" width="70%" alt="Disk Sanitization Steps"/>
