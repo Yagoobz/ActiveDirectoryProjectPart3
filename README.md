@@ -30,4 +30,4 @@ This doesn’t fully download Splunk, so to initiate the full download and insta
 To ensure that Splunk starts automatically every time the virtual machine reboots, I navigate to the "bin" directory within Splunk and execute the command "sudo ./splunk enable boot-start -user splunk." This command configures Splunk to start up during system boot, using the specified "splunk" user.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/7c1c4da3-375d-4ef1-8a15-0a81518103cc" height="30%" width="70%" alt="Disk Sanitization Steps"/>
