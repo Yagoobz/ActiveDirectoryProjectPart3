@@ -15,7 +15,7 @@ On the Splunk server, I configure a static IP address to match the IPv4 address 
 To ensure everything is configured correctly, I execute the command "ip a" to check the IP address, confirming that it has changed according to the static IP configuration. Additionally, I perform a ping to google.com to verify if I receive a response, and I do, indicating that the network setup is working perfectly.
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/36572ccd-a1f4-4881-996d-d473ff60268a" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/a0d977a0-11b9-47ec-b020-bd8488aef227" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 To download Splunk, I visit their website, create an account, and download the free trial. Once the file is downloaded onto my host computer, I launch the Splunk virtual machine I previously created. Within the virtual machine, I create a new folder named "share" and proceed to mount the shared folder to the "share" directory using the command "sudo mount -t vboxsf -o uid=1000,gid=100." Next, I add the Splunk download file to VirtualBox and navigate to the "share" directory to initiate the Splunk download process.
 <br />
