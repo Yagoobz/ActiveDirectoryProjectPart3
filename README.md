@@ -45,7 +45,7 @@ To install Splunk Universal Forwarder, I begin by downloading it from Splunk's w
 :)
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/5887f97a-e422-4c4e-a9cb-3803ed62990e" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/179ec5f6-1822-440a-9e18-7ffe18c946e9" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 To finalize the Splunk server configuration, I log in to the Splunk web portal using the credentials I created during the Splunk installation on the server. In the inputs.conf file, all the inputs are being sent over to an index named "endpoint." Since this index doesn't exist in Splunk yet, I create a new index named "endpoint" and ensure that the Splunk server is enabled to receive the data.
 
