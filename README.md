@@ -25,6 +25,6 @@ To download Splunk, I visit their website, create an account, and download the f
 This doesn’t fully download Splunk, so to initiate the full download and installation of Splunk, I switch to the Splunk user by executing the command "sudo -u splunk bash." Next, I navigate to the "bin" directory using "cd bin" as it contains all the Splunk binaries. From there, I run the installer using "./splunk start" to begin the Splunk installation process.
 <br />
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/d1894414-7365-4533-8f94-1dfca04aad39" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 
