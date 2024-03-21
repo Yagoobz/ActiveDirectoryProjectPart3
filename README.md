@@ -30,7 +30,7 @@ This doesn’t fully download Splunk, so to initiate the full download and insta
 To ensure that Splunk starts automatically every time the virtual machine reboots, I navigate to the "bin" directory within Splunk and execute the command "sudo ./splunk enable boot-start -user splunk." This command configures Splunk to start up during system boot, using the specified "splunk" user.
 <br />
 <br />
-<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/4ed49be9-72f9-4f88-b9fc-90fcb3052463" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/ActiveDirectoryProjectPart3/assets/145611184/d939c065-9774-4b7a-b1c3-4a5dfdb54fdd" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 To begin installing Splunk Universal Forwarder and Sysmon on both the target machine and the server, I first need to change the IPv4 address to avoid any potential IP conflicts. I accomplish this by navigating to the Windows settings and selecting "Change adapter options." From there, I enter the appropriate numbers to modify the IPv4 address, ensuring that there are no conflicts. This step is crucial to ensure smooth installation and operation of Splunk Universal Forwarder and Sysmon.
 <br />
